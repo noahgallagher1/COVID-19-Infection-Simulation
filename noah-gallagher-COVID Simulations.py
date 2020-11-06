@@ -72,19 +72,19 @@ class Graph1():
         plt.draw()
         plt.show()
         
-#Graph 1: Interactions = 50
-n = 10000
-A = 5
+#Graph 1: Interactions = 5 , Vertices = 100
+n = 100 #people
+A = 5 #interactions
 
-g = Graph1(n,A)
-g.getIG(n)
+g = Graph1(n,A) #defining new graph
+g.getIG(n)  #running Graph1()
 
-#Graph 2: Interactions = 5
-n = 10000
-A = 50
+#Graph 2: Interactions = 100 , Vertices = 10,000
+n = 10000 #people
+A = 100 #interactions
 
-g = Graph1(n,A)
-g.getIG(n)
+g = Graph1(n,A) #defining new graph
+g.getIG(n) #running Graph1()
 
 
 
